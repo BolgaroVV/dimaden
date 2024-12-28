@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import {ref} from "Vue"
+import {ref} from "vue"
 function changePhoto() {
   confetti()
   document.getElementById('ananas').style.display = "block"
